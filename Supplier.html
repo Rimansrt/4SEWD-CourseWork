@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R-GYM</title>
+    <link rel="stylesheet" href="Supplier.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Sidebar -->
+      <div id="nav">
+        <h1 id="logo">R-GYM</h1>
+        <div id="details">
+          <a href="Dashboard.html"
+            ><h2 class="detail" id="Dashboard">Dashboard</h2></a
+          >
+          <a href="Equipments.html"
+            ><h2 class="detail" id="Equipments">Equipments</h2></a
+          >
+          <a href="Supplier.html"><h2 class="detail" id="Suppliers">Suppliers</h2></a>
+        </div>
+        <hr />
+        <div id="logout">
+          <img
+            src="picture/logout.png"
+            alt="logout"
+            height="20px"
+            width="20px"
+          />
+          <a href="Login.html"><h5 class="logout" style="text-decoration: underline; color: white;">Logout</h5></a>
+        </div>
+       </div>
+    <div id="main">
+      <nav> 
+        <div class="search">
+          <input
+            type="text"
+            class="inputSearch"
+            placeholder="Search items here"
+          />
+          <button id="search" >Search</button>
+        </div>
+        <div id="admin"> 
+            <img src="picture/IMG-20251113-WA0007.jpg" alt="admin photo" height="40px" width="40px" style="border-radius: 50px;">
+            Admin
+            <img src="picture/arrow-down-sign-to-navigate.png" alt="down arrow"height="20px" width="20px" id="down">
+          </div>
+      </nav>
+      <div id="content">
+        <div class="content-header">
+          <h1>Suppliers</h1>
+          <button id="addSupplier">Add Supplier</button>
+        </div>
+        <table id="supplierTable">
+          <thead>
+            <tr>
+              <th>Supplier ID</th>
+              <th>Supplier Name</th>
+              <th>Contact Number</th>
+              <th>Email</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody>
+             <tr>
+              <td>SUP001</td>
+              <td>ABC Supplies</td>
+              <td>123-456-7890</td>
+              <td>abc.supplies@email.com</td>
+              <td>123 Kathmandu</td>
+            </tr> 
+            <tr>
+              <td>SUP002</td>
+              <td>XYZ Distributors</td>
+              <td>987-654-3210</td>
+              <td>xyz.distributors@email.com</td>
+              <td>456 Lalitpur</td>
+            </tr>
+            <tr>
+              <td>SUP003</td>
+              <td>PQR Suppliers</td>
+              <td>555-123-4567</td>
+              <td>pqr.suppliers@email.com</td>
+              <td>789 Biratnagar</td>
+            </tr>
+
+          </tbody>
+        </table>  
+    </div>
+    </div>
+  </body>
+</html>

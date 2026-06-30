@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R-GYM</title>
+    <link rel="stylesheet" href="Dashboard.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Sidebar -->
+      <div id="nav">
+        <h1 id="logo">R-GYM</h1>
+        <div id="details">
+          <a href="Dashboard.html"><h2 class="detail" id="Dashboard">Dashboard</h2></a>
+          <a href="Equipments.html"><h2 class="detail" id="Equipments">Equipments</h2></a>
+          <a href="Supplier.html"><h2 class="detail" id="Suppliers">Suppliers</h2></a>
+        </div>
+        <hr />
+        <div id="logout">
+          <img src="picture/logout.png" alt="logout" height="20px" width="20px">
+          <a href="Login.html"><h5 class="logout" style="text-decoration: underline; color: white;">Logout</h5></a>
+        </div>
+      </div>
+      <!-- Main content -->
+      <div id="main">
+        <!--for the navigation images are not put-->
+        <nav>
+          <div class="search">
+              <input type="text" class="inputSearch" placeholder="Search items here">
+              <button id="search">Search</button>
+          </div>
+          <div id="admin"> 
+            <img src="picture/IMG-20251113-WA0007.jpg" alt="admin photo" height="40px" width="40px" style="border-radius: 50px;">
+            Admin
+            <img src="picture/arrow-down-sign-to-navigate.png" alt="down arrow"height="20px" width="20px" id="down">
+          </div>
+        </nav>
+        <!--body now-->
+        <div class="welcome">
+          <h2>Dashboard</h3>
+          <h4>Welcome back, Admin!</h2>
+        </div>
+        <!--Dashboard details images is yet to be put and hamburg also-->
+        <div class="dashdetails">
+          <div id="Teqp">
+            <div>
+              <img src="picture/all.png" alt="image of total equipments" height="50px" width="50px">
+            </div>
+            <div class="discription">
+            <p class="title">Total Equipments</p>
+            <p>35</p>
+            <p class="all">All equipments</p>
+            </div>
+          </div>
+          <div id="Tsup">
+            <div>
+              <img src="picture/supplier.png" alt="image of total suplier" height="50px" width="50px">
+            </div>
+            <div class="discription">
+            <p class="title">Total Suppliers</p>
+            <p>4</p>
+            <p class="all">All Suppliers</p>
+            </div>
+          </div>
+          <div id="Lstock">
+            <div>
+              <img src="picture/stock-market.png" alt="low stock"height="50px" width="50px">
+            </div>
+            <div class="discription">
+            <p class="title">Low Stock</p>
+            <p>3</p>
+            <p class="all">Bellow 5 items</p>
+            </div>
+          </div>
+          <div id="Ostock">
+            <div>
+              <img src="picture/out-of-stock.png" alt="Out of stock"height="50px" width="50px">
+            </div>
+            <div class="discription">
+            <p class="title">Out of Stock</p>
+            <p>2</p>
+            <p class="all">Stock = 0</p>
+            </div>
+          </div>
+        </div>
+        <!--alarts-->
+        <div class="fullalerts">
+          <div class="alerts1">
+            <h2>Low Stock Alert</h2>
+            <!-- <p>View more</p> -->
+            <hr>
+            <div class="alert">
+              <img src="picture/dumbell.png" alt="dumbell" height="50px" width="50px" class="alertimage">
+              <div class="alertdiscription">
+                <p>Dumbell</p>
+                <p class="low-stock">3 items remaining</p>
+              </div>
+            </div>
+            <div class="alert">
+              <img src="picture/treadmill.png" alt="treadmill" height="50px" width="50px" class="alertimage">
+              <div class="alertdiscription">
+                <p>Treadmill</p>
+                <p class="low-stock">2 items remaining</p>
+              </div>
+            </div>
+            <div class="alert">
+              <img src="picture/bench-barbel.png" alt="bench barbel" height="50px" width="50px" class="alertimage">
+              <div class="alertdiscription">
+                <p>Barbel Bench </p>
+                <p class="low-stock">4 items remaining</p>
+              </div>
+            </div>
+            <div class="alert">
+              <img src="picture/yoga-mat.png" alt="yoga mat" height="50px" width="50px" class="alertimage">
+              <div class="alertdiscription">
+                <p>Yoga Mat</p>
+                <p class="low-stock">3 items remaining</p>
+              </div>
+            </div>
+          </div>
+          <div class="alerts2">
+            <h2>Recent Equipments</h2>
+            <!-- <p>View more</p> -->
+            <hr>
+            <div class="alert">
+              <img src="picture/barbell.png" alt="barbell" height="50px" width="50px" class="alertimage">
+              <div class="alertdiscription">
+                <p>Barbell</p>
+                <p class="recently-add">Added on 06/27/2026</p>
+              </div>
+            </div>
+            <div class="alert">
+              <img src="picture/kettlebell.png" alt="kettlebell" height="50px" width="50px" class="alertimage">
+              <div class="alertdiscription">
+                <p>Kettlebell</p>
+                <p class="recently-add">Added on 06/25/2026</p>
+              </div>
+            </div>
+            <div class="alert">
+              <img src="picture/equipment.png" alt="equipment" height="50px" width="50px" class="alertimage">
+              <div class="alertdiscription">
+                <p>Lat Pulldown</p>
+                <p class="recently-add">Added on 06/20/2026</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 
